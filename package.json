@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/haridev1999/arrayDatabase-SOH.git"
   },
-  "author": "",
+  "author": "Haridev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/haridev1999/arrayDatabase-SOH/issues"
+  },
+  "engines": {
+		  "node":"v18.2.0"
   },
   "homepage": "https://github.com/haridev1999/arrayDatabase-SOH#readme"
 }
