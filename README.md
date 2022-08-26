@@ -9,7 +9,8 @@ Endpoints : 3
 
 **Endpoint 1** : **/create** : This is a post request which creates a record in the database. The body should be given in a JSON format and the response will be in a string format.
 The input body should be of the format : 
-```{
+```
+{
 	"family":8,
 	"fitness":2,
 	"faith":2,
@@ -23,7 +24,8 @@ and you will get a response like this'Data Updated Successfully'.Saying that the
 
 **Endpont 2** : **/all** : This is a get request which is used to retrieve all the records done in the dataase. This endpoint uses no input. And it gives you a response as an array of objects.
 For a database containing 2 entries, the response would look something like this :
-```[
+```
+[
 	{
 		"family": 8,
 		"fitness": 2,
