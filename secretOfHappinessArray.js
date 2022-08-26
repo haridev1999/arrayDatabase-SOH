@@ -59,5 +59,5 @@ const server = http.createServer((req,res) => {
 				})();
 		}
 });
-server.listen (8080);
+server.listen(process.env.PORT || 5555);
 console.log('The server is running on http://localhost:8080/');
